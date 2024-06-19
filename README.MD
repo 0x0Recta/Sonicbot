@@ -3,8 +3,8 @@
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/Mnuralim/bot-sonic-sol.git
-cd bot-sonic-sol
+git clone https://github.com/0x0Recta/Sonicbot.git
+cd Sonicbot
 ```
 
 ### 2. Instal Dependensi

@@ -50,10 +50,10 @@ async function getKeypairFromSeed(seedPhrase) {
   }
   const fromKeypair = await getKeypairFromSeed(seedPhrase)
 
-  const randomAddresses = generateRandomAddresses(100)
-  console.log('Generated 100 random addresses:', randomAddresses)
+  const randomAddresses = generateRandomAddresses(30)
+  console.log('Generated 30 random addresses:', randomAddresses)
 
-  const amountToSend = 0.00223 //
+  const amountToSend = 0.00543 //
 
   for (const address of randomAddresses) {
     const toPublicKey = new PublicKey(address)
